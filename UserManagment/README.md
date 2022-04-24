@@ -1,0 +1,1 @@
+In this section we will build a user managment app 100% vanilla JS
