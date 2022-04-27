@@ -1,7 +1,10 @@
+let carros =["Ernesto", "Julio", "Marcos", "Antonio"]
+var nome
+var index
 
 
-let b= 9
+let deleteCar= carros.forEach((val, index)=>{ 
+  console.log(val , index)
+})
 
-for(a=0; a<=10 ;a++){
-  console.log(` ${b} x ${a} = ${b*a}`)  
-}
+console.log(deleteCar)
