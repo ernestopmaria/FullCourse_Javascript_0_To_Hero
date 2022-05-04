@@ -1,10 +1,15 @@
-let carros =["Ernesto", "Julio", "Marcos", "Antonio"]
-var nome
-var index
+class celular {
 
+  constructor(){
+    this.ligar="ligar"
+  }
 
-let deleteCar= carros.forEach((val, index)=>{ 
-  console.log(val , index)
-})
+  ligando(){
+ return"ligando"
+  }
+  
+}
 
-console.log(deleteCar)
+let teste = new celular()
+
+console.log(teste.ligando(), teste.ligar)
